@@ -25,7 +25,10 @@ namespace HackerRank.Easy {
             }
         }
 
-        public  void miniMaxSum() {
+        /// <summary>
+        /// https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true
+        /// </summary>
+        public void miniMaxSum() {
             List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
             long min, max,value;
 

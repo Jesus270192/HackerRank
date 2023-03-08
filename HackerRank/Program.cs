@@ -10,7 +10,6 @@ namespace HackerRank {
         static void Main(string[] args) {
             EasyExercise easyExercise = new Easy.EasyExercise();
             easyExercise.miniMaxSum();
-            
         }
 
     }
